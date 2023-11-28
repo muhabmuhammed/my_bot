@@ -62,24 +62,16 @@ Visualization Manager:
           Value: true
         chassis:
           Value: true
-        left_wheel:
-          Value: true
-        right_wheel:
-          Value: true
       Marker Scale: 1
       Name: TF
-      Show Arrows: true
-      Show Axes: true
+      Show Arrows: false
+      Show Axes: false
       Show Names: false
       Tree:
         base_link:
           chassis:
             caster_wheel:
               {}
-          left_wheel:
-            {}
-          right_wheel:
-            {}
       Update Interval: 0
       Value: true
     - Alpha: 1
@@ -193,10 +185,10 @@ Visualization Manager:
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.8297964334487915
+      Pitch: 0.22520306706428528
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 0.3653949797153473
+      Yaw: 2.2303972244262695
     Saved: ~
 Window Geometry:
   Displays:
@@ -214,5 +206,5 @@ Window Geometry:
   Views:
     collapsed: false
   Width: 1908
-  X: 0
-  Y: 0
+  X: -32
+  Y: -32
